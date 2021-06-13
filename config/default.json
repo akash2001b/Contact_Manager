@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://akash123:akash123@cluster0.xallv.mongodb.net/Contact_App?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+}
