@@ -28,9 +28,6 @@ const PORT=process.env.PORT || 5000;
 
 app.use(morgan('dev'));
 
-app.get('/', (req,res)=>{
-    res.json({msg: 'Welcome to the contact keeper API'});
-});
 
 // Routes
 app.use('/api/users', require('./routes/users'));
