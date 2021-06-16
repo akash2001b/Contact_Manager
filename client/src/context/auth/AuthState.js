@@ -104,7 +104,9 @@ const AuthState = (props) => {
   };
 
   //Logout
-  const logout = async () => {};
+  const logout = async () => {
+    dispatch({ type: LOGOUT });
+  };
 
   //clear error
   const clearErrors = async () => dispatch({ type: CLEAR_ERRORS });
