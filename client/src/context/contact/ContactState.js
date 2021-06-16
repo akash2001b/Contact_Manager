@@ -100,8 +100,8 @@ const ContactState = (props) => {
   const updateContact = async (contact) => {
     const config = {
       headers: {
-        'Content-Type': 'application/json'
-      }
+        "Content-Type": "application/json",
+      },
     };
 
     try {
@@ -113,12 +113,12 @@ const ContactState = (props) => {
 
       dispatch({
         type: UPDATE_CONTACT,
-        payload: res.data
+        payload: res.data,
       });
     } catch (err) {
       dispatch({
         type: CONTACT_ERROR,
-        payload: err.response.data.msg
+        payload: err.response.data.msg,
       });
     }
   };

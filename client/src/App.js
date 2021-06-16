@@ -16,7 +16,7 @@ import AlertState from "./context/alert/AlertState";
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
-} 
+}
 
 const App = () => {
   return (
